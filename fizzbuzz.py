@@ -19,6 +19,7 @@ def fizz_buzz(num):
     else:
         print("Number is not divisible by 3 or 5 or 15")
 
+# 打印1~100的数字，range()函数包含起点(1)不包含终点(101)，
 for i in range(1, 101):
     fizz_buzz(i)
 
