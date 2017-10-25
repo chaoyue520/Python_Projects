@@ -8,9 +8,8 @@ If the enumber is only divisible by 3, then the program prints 'Fizz'
 If the enumber is only divisible by 5, then the program prints 'Buzz'
 """
 
-
 def fizz_buzz(num):
-    print(num)  ,
+    print(num)  ,   #加逗号可以把number和结果打印在同一行，print后默认有/t分隔符
     if num % 15 == 0:
         print("FizzBuzz")
     elif num % 5 == 0:
@@ -22,3 +21,5 @@ def fizz_buzz(num):
 
 for i in range(1, 101):
     fizz_buzz(i)
+
+    
