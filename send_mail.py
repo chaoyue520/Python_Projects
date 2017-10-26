@@ -13,9 +13,9 @@ import os
 
 ## 第一步：初始化设置
 
-FROM = 'jiwenchao01@baidu.com'
-TO = 'jiwenchao01@baidu.com'  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
-subject = '邮件测试'
+FROM = 'jiwenchao01@baidu.com'   # 发件人
+TO = 'jiwenchao01@baidu.com'     # 收件人
+subject = '邮件测试'              # 主题
 
 
 ## 第二步：构造邮件正文内容
