@@ -6,6 +6,7 @@ This program is the implementation of the famous fizzbuzz program.
 If the number is divisible by both 3 and 5, then the progrma prints 'FizzBuzz'.
 If the enumber is only divisible by 3, then the program prints 'Fizz'
 If the enumber is only divisible by 5, then the program prints 'Buzz'
+
 """
 
 def fizz_buzz(num):
@@ -22,5 +23,7 @@ def fizz_buzz(num):
 # 打印1~100的数字，range()函数包含起点(1)不包含终点(101)，
 for i in range(1, 101):
     fizz_buzz(i)
+
+# bingo
 
     
