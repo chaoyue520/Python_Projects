@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
+
 This program is the implementation of the famous fizzbuzz program.
 If the number is divisible by both 3 and 5, then the progrma prints 'FizzBuzz'.
 If the enumber is only divisible by 3, then the program prints 'Fizz'
