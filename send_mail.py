@@ -43,8 +43,7 @@ simi_html= """
    <td>%s</td>
    <td>%s</td>
 </tr>
-</table>"""
-%(a,b,c,d)
+</table>"""%(a,b,c,d)
 
 
 """
