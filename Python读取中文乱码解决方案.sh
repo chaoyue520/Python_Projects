@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 确认当前机器编码形式，如果不是zh_CN.utf-8，则无法正确读取中文
+echo $LANG
+
 # 需要在执行Python脚本的那台机器上修改输出文档编码形式
 export LANG=zh_CN.utf-8
 
